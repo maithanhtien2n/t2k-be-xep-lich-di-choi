@@ -1,6 +1,6 @@
 const Sequelize = require("sequelize");
-const sequelize = new Sequelize("trip-project", "root", "tien2000", {
-  host: "localhost",
+const sequelize = new Sequelize("t2kproject", "tien2000", "tien2000", {
+  host: "db4free.net",
   dialect: "mysql",
 });
 
